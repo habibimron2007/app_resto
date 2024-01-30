@@ -61,8 +61,8 @@ header nav a{
 }
 
 .menu-item img{
-    max-width: 100%;
-    margin: auto;
+    width: 150px;
+    height: 150px;
 }
 .menu-item h3{
     font-size: 20px;
@@ -70,9 +70,12 @@ header nav a{
 }
 .menu-item p{
     color: #777;
+    height: 80px;
+    overflow: hidden;
 }.menu-item .harga{
     color: #d31616;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .menu-item .order-button{
     background-color: #000;
@@ -80,7 +83,10 @@ header nav a{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 .menu-item .order-button:hover{
     background-color: #555;
@@ -119,4 +125,24 @@ footer{
         display: block;
         margin: 10px 0;
     }
+}
+.btn-checkout{
+    background-color: #4f11ee;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login{
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+}
+.btn-hapus{
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
 }
